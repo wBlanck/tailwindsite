@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -w",
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.12"
+  },
+  "dependencies": {
+    "vite": "^2.7.10"
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "bracketSameLine": true,
+    "printWidth": 200
+  }
+}
