@@ -6,6 +6,7 @@ module.exports = {
         "clr-orange": "#FF9900",
         "clr-black": "#000",
         "clr-gray": "#31353B",
+        "hero-bg": "#BDCCFF",
       },
       fontFamily: {
         manrope: ['"Manrope"', "sans-serif"],
