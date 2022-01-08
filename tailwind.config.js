@@ -1,6 +1,9 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
+    fontSize: {
+      test: "3.375rem",
+    },
     extend: {
       colors: {
         "clr-orange": "#FF9900",
