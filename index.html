@@ -28,21 +28,26 @@
         <a href="#blog" class="font-bold">Blog</a>
         <a href="#contact" class="btn-primary font-bold">Contact</a>
       </nav>
+
+      <!-- HAMBURGER MENU -->
       <div class="lg:hidden cursor-pointer">
         <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="#31353B" />
         </svg>
       </div>
     </header>
-    <!-- HERO SECTION -->
 
-    <section class="xl:px-32 mt-36 lg:mt-0 lg:grid container relative h-screen px-5 mx-auto">
+    <!-- HERO SECTION -->
+    <section class="xl:px-32 lg:mt-0 lg:grid container relative h-screen px-5 mx-auto mt-32">
       <!-- HERO IMAGE -->
 
-      <img src="imgs/hero-bg.jpg" alt="skyscraper" class="lg:absolute -z-10 h-3/6 lg:-right-24 xl:right-10 top-2/4 lg:-translate-y-1/2 lg:min-h-[400px] 2xl:min-h-[500px] object-cover" />
-      <!-- TEXT CONTENT -->
+      <img
+        src="imgs/hero-bg.jpg"
+        alt="skyscraper"
+        class="md:mx-0 mx-auto max-h-[350px] sm:max-h-[400px] lg:absolute -z-10 h-3/6 lg:-right-24 xl:right-10 top-2/4 lg:-translate-y-1/2 lg:min-h-[400px] 2xl:min-h-[500px] object-cover" />
 
-      <div class="self-center">
+      <!-- TEXT CONTENT -->
+      <div class="self-center mt-5">
         <h2 class="text-clr-orange md:text-left lg:text-xl text-lg font-bold text-center">RESIDENTIAL & OFFICE SPACES</h2>
         <h1 class="md:text-left md:text-test my-5 text-4xl font-extrabold leading-snug text-center">
           Smart Living Style <br class="md:block hidden" />
@@ -52,13 +57,21 @@
           Much did had call new drew that kept. Limits expect wonder <br class="lg:block hidden" />
           law she. Now has you views woman noisy match money rooms.
         </p>
+        <!-- SEARCH INPUT -->
+        <div class="lg:justify-start sm:w-3/4 lg:w-4/6 relative flex justify-center mt-5 border border-gray-300 border-solid 2xl:max-w-[618px] xl:max-w-[512px] lg:max-w-[500px]">
+          <img src="imgs/house-icon.svg" alt="house icon" class="lg:mx-5 mr-5" />
+          <input type="text" placeholder="Enter Zipcode to search properties" class="w-3/4 my-5" />
+          <button class="bg-clr-orange--dark top-full sm:mt-0 sm:border sm:border-clr-orange--dark sm:border-solid absolute px-6 py-5 mt-5 font-bold text-white sm:right-[-149px] sm:top-[-1px]">
+            Search Now!
+          </button>
+        </div>
       </div>
 
       <!-- COLOR-BG -->
       <div class="-z-20 bg-hero-bg fixed right-0 w-2/6 h-full"></div>
     </section>
-    <!-- SOCIAL ICONS -->
 
+    <!-- SOCIAL ICONS -->
     <div class="xl:flex right-6 top-2/4 absolute flex-col items-center justify-center hidden space-y-4 -translate-y-1/2">
       <a href="#" class="text-2xl">
         <i class="fab fa-facebook-f"></i>
