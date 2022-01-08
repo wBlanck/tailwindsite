@@ -1,9 +1,6 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    fontSize: {
-      test: "3.375rem",
-    },
     extend: {
       colors: {
         "clr-orange": "#FF9900",
@@ -13,6 +10,9 @@ module.exports = {
       fontFamily: {
         manrope: ['"Manrope"', "sans-serif"],
         "dm-sans": ["'DM Sans'", "sans-serif"],
+      },
+      fontSize: {
+        test: "3.375rem",
       },
     },
   },
