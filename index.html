@@ -10,7 +10,22 @@
     <link rel="stylesheet" href="dist/output.css" />
     <title>tailwindcss</title>
   </head>
-  <body class="font-manrope">
-    Hello there
+  <body class="font-manrope bg-gray-900">
+    <header class="md:px-14 lg:px-24 py-9 container flex items-center justify-between px-8 mx-auto text-sm">
+      <a href="#" class="text-clr-gray text-xl font-extrabold">SmartSpace</a>
+      <nav class="space-x-14 lg:flex hidden">
+        <a href="#" class="font-bold">Home</a>
+        <a href="#about" class="font-bold">About</a>
+        <a href="#service" class="font-bold">Service</a>
+        <a href="#portfolio" class="font-bold">Portfolio</a>
+        <a href="#blog" class="font-bold">Blog</a>
+        <a href="#contact" class="font-bold">Contact</a>
+      </nav>
+      <div class="lg:hidden cursor-pointer">
+        <svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z" fill="white" />
+        </svg>
+      </div>
+    </header>
   </body>
 </html>
